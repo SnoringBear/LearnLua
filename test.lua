@@ -3,8 +3,16 @@
 --- Created by anye.
 --- DateTime: 2025/3/3 15:06
 --- 测试入口文件
-require("nilDemo1")
+require("datatype/nilDemo1")
 require("datatype/booleanDemo")
+require("datatype/numberDemo")
+require("datatype/stringDemo")
+require("datatype/tableDemo")
 
 --- nilTest()
 --- booleanPrintTest()
+--- numberPrintTest()
+--- definedString()
+--- stringCalculate()
+--- stringAppend()
+--- stringLength()
