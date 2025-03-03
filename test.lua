@@ -9,6 +9,8 @@ require("datatype/numberDemo")
 require("datatype/stringDemo")
 require("datatype/tableDemo")
 require("datatype/functionDemo")
+require("base/variableDemo")
+require("base/circulateDemo")
 
 --- nilTest()
 --- booleanPrintTest()
@@ -19,7 +21,12 @@ require("datatype/functionDemo")
 --- stringLength()
 --- TableTest01()
 --- TableTest02()
-
 --- functionTest01()
+--- functionTest02()
 
-functionTest02()
+
+--- variableTest02()
+--- variableTest03()
+
+--- whileTest01()
+forTest01()
