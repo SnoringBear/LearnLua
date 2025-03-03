@@ -8,6 +8,7 @@ require("datatype/booleanDemo")
 require("datatype/numberDemo")
 require("datatype/stringDemo")
 require("datatype/tableDemo")
+require("datatype/functionDemo")
 
 --- nilTest()
 --- booleanPrintTest()
@@ -16,3 +17,9 @@ require("datatype/tableDemo")
 --- stringCalculate()
 --- stringAppend()
 --- stringLength()
+--- TableTest01()
+--- TableTest02()
+
+--- functionTest01()
+
+functionTest02()
