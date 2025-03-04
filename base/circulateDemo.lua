@@ -37,3 +37,21 @@ function forTest02()
         print(i, v)
     end
 end
+
+
+function repeatTest01()
+    --- 效果与java do while一致
+    i = 0
+    repeat
+        print("i的值",i)
+        i = i + 1
+    until i > 10
+end
+
+function ifTest01()
+    if 1 == 1 then
+        print("1==1")
+    else
+        print("1!=1")
+    end
+end

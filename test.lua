@@ -29,4 +29,6 @@ require("base/circulateDemo")
 --- variableTest03()
 
 --- whileTest01()
-forTest01()
+--- forTest01()
+--- repeatTest01()
+ifTest01()
