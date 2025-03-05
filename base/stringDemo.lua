@@ -29,3 +29,40 @@ function stringTest03()
     print("str2 string.len :", string.len(str2))       ---  5
     print("str2 utf8.len:", utf8.len(str2))            ---  5
 end
+
+
+function stringTest04()
+    local str = "hello World"
+    print(string.format("string:%s", string.upper(str)))
+    print(string.format("string:%s", string.lower(str)))
+end
+
+function stringTest05()
+    local string = string.gsub("aaaa", "a", "z", 3)
+    print(string.format("gsub string:%s", string))
+
+    local var = string.find("Hello Lua user", "Lua", 1)
+    print(string.format("find string:%s", var))
+end
+
+
+function stringTest06()
+    local sourcestr = "prefix--runoobgoogletaobao--suffix"
+    print("\n原始字符串", string.format("%q", sourcestr))    --- "prefix--runoobgoogletaobao--suffix"
+
+    -- 截取部分，第4个到第15个
+    local first_sub = string.sub(sourcestr, 4, 15)
+    print("\n第一次截取", string.format("%q", first_sub))     ---  "fix--runoobg"
+
+    -- 取字符串前缀，第1个到第8个
+    local second_sub = string.sub(sourcestr, 1, 8)
+    print("\n第二次截取", string.format("%q", second_sub))     --- "prefix--"
+
+    -- 截取最后10个
+    local third_sub = string.sub(sourcestr, -10)
+    print("\n第三次截取", string.format("%q", third_sub))        --- "ao--suffix"
+
+    -- 索引越界，输出原始字符串
+    local fourth_sub = string.sub(sourcestr, -100)
+    print("\n第四次截取", string.format("%q", fourth_sub))   ---"prefix--runoobgoogletaobao--suffix"
+end
